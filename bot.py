@@ -51,7 +51,7 @@ def cancel(update, context):
     update.message.reply_text('GoodBye!!!')
 
 def main():
-    updater = Updater("1082632506:AAHeixCInGzZu_9d8hKkvCAHn3t1BDau75Q", use_context=True)
+    updater = Updater("TOKEN", use_context=True)
   
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
